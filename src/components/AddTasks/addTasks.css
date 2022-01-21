@@ -1,0 +1,16 @@
+.input {
+    width: 80%;
+}
+
+.input__tasks {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: rgba(27,56,47,255);
+    border: none;
+    outline-style: none;
+    width: 130%;
+    padding: 30px;
+    margin: 30px 0 70px 0;
+}

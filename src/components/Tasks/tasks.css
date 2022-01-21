@@ -1,0 +1,30 @@
+.tasks {
+    width: 112%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tasks__title {
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    padding: 1px;
+}
+
+.tasks__container {
+    background-color: #fff;
+    border: 2px solid rgba(44,88,73,255);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.tasks__check {
+    margin: 10px 12px;
+}
+
+.tasks__label {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+

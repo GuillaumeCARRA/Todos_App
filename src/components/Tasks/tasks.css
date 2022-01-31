@@ -21,10 +21,23 @@
 
 .tasks__check {
     margin: 10px 12px;
+    cursor: pointer;
 }
 
 .tasks__label {
-  font-weight: 300;
-  font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.trash {
+    position: relative;
+}
+
+.trash__task {
+    position: absolute;
+    color: red; 
+    right: 20px;
+    bottom: 5px;
+    cursor: pointer;
 }
 

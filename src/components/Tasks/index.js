@@ -7,7 +7,7 @@ function Tasks({todos,  onDeleteTask}) {
         <div className="tasks">
             <h1 className="tasks__title">Tâches à effectuer</h1>
                {todos.map(({
-                 id, label  
+                 id, label
                }) => (
                 <div className="tasks__container" key={id}>
                     <input 
@@ -18,7 +18,7 @@ function Tasks({todos,  onDeleteTask}) {
                     <div className="trash">   
                         <Delete 
                             onClick={() => {
-                                const deletedTask = label
+                                const deletedTask = id
                                 console.log('delete', deletedTask);
                                 onDeleteTask(deletedTask);
                             }} 

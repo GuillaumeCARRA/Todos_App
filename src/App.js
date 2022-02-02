@@ -34,7 +34,7 @@ function App() {
 
   // TO DELETE A TASK
   const deleteHandler = (id) => {
-      setTodos(todo.filter((item) => item.label !== id))
+      setTodos(todo.filter((item) => item.id !== id))
   }
 
   return (
